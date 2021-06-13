@@ -1,0 +1,172 @@
+*{
+margin:0;
+padding:0;
+font-family: 'poppins' , sans-serif;
+}
+
+body{
+background:url("abc.jpg") ;
+text-align:center;
+align-items:center;
+min-height:100%;
+background-size:cover;
+font-family:Arial;
+}
+
+
+header {
+  background-color: #666;
+  padding: 2px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+}
+.material-icons{
+padding: 20px;
+color:red;
+float:right;
+font-size:30px;
+text-align:center;
+margin: 5px 2px;
+}
+
+
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  float: right;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+  .fa:hover {
+	  color:blue;
+    opacity: 0.7;
+}
+
+ 
+ .fa-facebook {
+  background: ;
+  color: white;
+}
+
+  .fa-twitter {
+  background: ;
+  color: white;
+}
+
+.fa-google {
+  background: ;
+  color: white;
+}*/
+
+
+
+
+
+/* Style the top navigation bar */
+.ravibar {
+	background-color:black;
+ overflow: hidden;
+ background-color: #333;
+ 
+}
+
+/* Style the topnav links */
+.ravibar a {
+	
+ float: left;
+ display: black;
+ color:  #f2f2f2;
+ text-align : center;
+ padding: 14px 16px;
+ text-decoration: none;
+ 
+}
+
+.ravibar a:hover {
+background-color:green;
+}
+
+
+
+
+
+.coteiner{
+width:100%;	
+position:relative;	
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+
+
+
+max-width:1200px;
+margin:auto;
+
+overflow:auto;
+}
+
+ .coteiner .gallery{
+position:relative;	
+max-width:100%;
+background:#fff;
+margin:10px;
+padding:15px;
+display: flex;
+}
+
+.coteiner .gallery .imgbx {
+	filter: grayscale(100%);
+	max-width:150px;
+	flex:0 0 150px;
+	transition:is;
+	
+}
+.coteiner .gallery .imgbx:hover {
+	filter: grayscale(0);
+	transform:sacle(3.1);
+}
+
+
+.coteiner .gallery .imgbx img {
+	
+	max-width:100%;
+	
+}
+.coteiner .gallery .content{
+	
+	margin-left:20px;
+	
+}
+@media (max-width:991px)
+{ 
+     .coteiner {
+	flex-direction:column;
+	}
+	
+	
+	
+     .coteiner .gallery  {
+	flex-direction:column;
+	max-width:350px;
+	
+}
+ 
+     .coteiner .gallery .imgbx {
+	
+	max-width:100%;
+	
+	}
+	
+    .coteiner .gallery .content{
+	
+	margin-left:0px;
+	
+}	
+	
+}
+
